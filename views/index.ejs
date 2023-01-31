@@ -1,0 +1,44 @@
+<!-- @format -->
+<%- include("partials/header"); -%>
+    <div class="container">
+      <div class="container-fluid my-3">
+        <div class="row">
+          <div class="px-4 py-5 my-5 text-center">
+            <img
+              class="d-block mx-auto mb-4 img"
+              src="img/c1.jpeg"
+              alt=""
+              width="150"
+              height="150"
+            />
+            <h1 class="display-5 fw-bold" style="color: #3b7fad">
+              Weather Application
+            </h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">
+                Quickly get access to all weathers from differents cities and
+                place around the world.
+              </p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <form action="/" method="post">
+                  <input
+                    id="cityInput"
+                    type="text"
+                    name="cityName"
+                    class="form-control"
+                    placeholder="Enter a city"
+                  />
+                  <button
+                    type="submit"
+                    class="btn btn-outline-secondary btn-md mt-3 px-4"
+                  >
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<%- include("partials/footer"); -%>

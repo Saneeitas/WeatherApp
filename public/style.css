@@ -1,0 +1,21 @@
+
+.img{
+    border-radius: 15px;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: abslute;
+	text-align: center;
+	
+	
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+    color: rgb(66, 64, 64);
+}
